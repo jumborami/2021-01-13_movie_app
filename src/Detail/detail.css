@@ -1,0 +1,43 @@
+.DetailSection {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.DetailSection > img, .DetailSection > span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.DetailSection > span {
+  background-color: rgba(255,255,255,0.6);
+}
+.DetailSection .content {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 5% 10%;
+  display: flex;
+}
+.DetailSection .content > img {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+.DetailSection .content .data {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  margin-left: 20px;
+}
+.DetailSection .content .data h1{
+  margin-bottom: 10px;
+}
+.DetailSection .content .data span {
+  display: inline-block;
+  margin-bottom: 10px;
+}
