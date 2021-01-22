@@ -1,0 +1,6 @@
+.searchBox input {
+  height: 35px;
+  background-color: #d0cccd;
+  border: none;
+  border-bottom: 3px solid #444;
+}

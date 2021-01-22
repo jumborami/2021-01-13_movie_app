@@ -7,7 +7,7 @@ const Detail = React.lazy(() => import("./Detail"));
 export default () => (
   <Router>
     <>
-    <Suspense fallback={<div>⏱</div>}>
+    <Suspense fallback={<h1>Loading ⏱ datas</h1>}>
       <Switch>
         <Route path="/" exact component = { Home } />
         <Route path="/upcoming" component = { Upcoming } />

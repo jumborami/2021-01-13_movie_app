@@ -25,7 +25,6 @@ export default class extends React.Component {
         let Random = movies[Math.floor(Math.random() * movies.length)];
         movieRandom.push(Random);
       }
-
       this.setState({ movies: [...this.state.movies, ...movies], forSlider: movieRandom, isLoading: false });
       window.addEventListener('scroll', this.infiniteScroll, true);
     } catch {
